@@ -1,0 +1,61 @@
+.横並びA{
+	display:flex;
+	justify-content: space-between;
+	& .列{
+		background-color:orange;
+		width:120px;
+	}
+}
+.横並びB{
+	display:flex;
+	justify-content: space-between;
+	& .広い列{
+		background-color: lightblue;
+		width:240px;
+	}
+	& .狭い列{
+		background-color:lightgreen;
+		width:120px;
+	}
+}
+
+.横並びC{
+	display:flex;
+	justify-content:space-between;
+	& .列{
+		background-color:pink;
+		width:120px;
+	}
+}
+
+.横並びD{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	& .列{
+		background-color:red;
+		
+		width:120px;
+	}
+}
+.横並び{
+	margin:20px 0;
+	display:flex;
+  justify-content: space-between;
+	gap:5px;
+	& .列{
+	border:2px solid grey;
+	width :120px;
+	padding:10px;
+		& .画像{
+			width:100%;
+		}
+		& .見出し{
+			font-weight:bold;
+			font-size:20px;
+		}
+		& .文{
+			font-size:12px;
+		}
+	}
+}
